@@ -24,37 +24,36 @@ The first half of the notebook is guided by the homework questions and the secon
 2. `02_process_data.ipynb` 
    - process the raw data
 
-### [Project Organization](#project-organization)
+## [Project Organization](#project-organization)
 
-├── LICENSE
-├── .gitignore                    <- files and folders to be ignored by version control system
-├── README.md                     <- The top-level README for developers using this project.
-├── data
-│   ├── external                  <- Data from third party sources.
-│   └── processed                 <- The final, canonical data sets for modeling.
-│
-├── models                        <- Trained and serialized models, model predictions, or model summaries
-│
-├── figures                       <- Generated graphics and figures to be used in reporting
-├── *.ipynb                       <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                                    and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
-│
-├── requirements.txt              <- The requirements file for reproducing the analysis environment, e.g.
-│                                    generated with `pip freeze > requirements.txt`
-│
-└── src                           <- Source code for use in this project.
-    ├── __init__.py               <- Makes src a Python module
+    ├── .gitignore                    <- files and folders to be ignored by version control system
+    ├── README.md                     <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external                  <- Data from third party sources.
+    │   └── processed                 <- The final, canonical data sets for modeling.
     │
-    ├── data                      <- Scripts to download or generate data
-    │   └── make_dataset.py
+    ├── models                        <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── features                  <- Scripts to turn raw data into features for modeling
-    │   └── build_features.py
+    ├── figures                       <- Generated graphics and figures to be used in reporting
+    ├── *.ipynb                       <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                                    and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
     │
-    └── models                    <- Scripts to train models and then use trained models to make
-        │                            predictions
-        ├── predict_model.py
-        └── train_model.py
+    ├── requirements.txt              <- The requirements file for reproducing the analysis environment, e.g.
+    │                                    generated with `pip freeze > requirements.txt`
+    │
+    └── src                           <- Source code for use in this project.
+        ├── __init__.py               <- Makes src a Python module
+        │
+        ├── data                      <- Scripts to download or generate data
+        │   └── make_dataset.py
+        │
+        ├── features                  <- Scripts to turn raw data into features for modeling
+        │   └── build_features.py
+        │
+        └── models                    <- Scripts to train models and then use trained models to make
+            │                            predictions
+            ├── predict_model.py
+            └── train_model.py
 
 --------
 
