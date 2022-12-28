@@ -22,7 +22,7 @@ I have noted which parts of the code were not my own work.
 ## [Notebooks](#notebooks)
 1. `01_saliency_map.ipynb` 
    - a walkthrough of how I implemented a saliency map in pytorch
-2. `02_additional_analysis.ipynb` 
+2. `02_further_analysis.ipynb` 
    - further model explainatory understanding 
 
 ## [Project Organization](#project-organization)
