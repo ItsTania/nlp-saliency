@@ -1,0 +1,21 @@
+name: saliency-env
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - ipython
+  - python=3.8.15
+  - pip:
+      - numpy
+      - pandas
+      - protobuf==4.21.12
+      - scikit-learn
+      - scipy
+      - sentencepiece
+      - sklearn
+      - thermostat-datasets
+      - tokenizers
+      - torch
+      - transformers
+
+

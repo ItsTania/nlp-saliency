@@ -1,29 +1,24 @@
 # NLP Saliency
+This project evaluates biases/ inconsistencies of natural language models, namely classifiers. In particular, this project evaluates hate-speech classifiers motivated by claims of race bias when Facebook used automated hate-speech detection.
+
+
 This project was extended from the machine ethics homework project from the MLSS2022 course (https://course.mlsafety.org/calendar/).
 
+
+Please read the REPORT.md for the summary and discussion of the processes and findings.
+
 ## [Table of Contents](#table-of-contents)
-1. [About](#about)
-   * [Overview](#overview)
-2. [Usage](#usage)
-3. [Project Organization](#project-organization)
-
-## [About](#about)
-The goal of the project was to manually implement an NLP saliency map to: 
-  1. learn how to utilise a model's gradients and 
-  2. to explain the model output and potential biases
-
-The first half of the notebook is guided by the homework questions. For the assignment, we did our analysis on sentiment analysis and the IMDB dataset. **This project extends the methods learnt in the, I did my analysis on 'morality' models trained on reddits 'r/Am I the Arsehole'**. Additionally, the second half contains additional experimentation. 
-
-I have noted which parts of the code were not my own work.
-
-### [Overview](#overview)
+1. [Notebooks](#notebooks)
+2. [Project Organization](#project-organization)
 
 
 ## [Notebooks](#notebooks)
 1. `01_saliency_map.ipynb` 
-   - a walkthrough of how I implemented a saliency map in pytorch
+   - 
 2. `02_further_analysis.ipynb` 
-   - further model explainatory understanding 
+   - 
+2. `03_addressing_bias_analysis.ipynb` 
+   - 
 
 ## [Project Organization](#project-organization)
 
