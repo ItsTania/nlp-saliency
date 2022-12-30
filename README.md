@@ -14,11 +14,11 @@ Please read the REPORT.md for the summary and discussion of the processes and fi
 
 ## [Notebooks](#notebooks)
 1. `01_saliency_map.ipynb` 
-   - 
+   - Outlines the process of generating the saliency scores and visualisation
 2. `02_further_analysis.ipynb` 
-   - 
+   - Analysis on the hate speech detector
 2. `03_addressing_bias_analysis.ipynb` 
-   - 
+   - Implementation of novel and open source techinqueas to address bias
 
 ## [Project Organization](#project-organization)
 
